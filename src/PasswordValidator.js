@@ -2,7 +2,7 @@
 
 let PasswordValidator = function() {
     this.validate = function(input) {
-         if(containsUppercase(input) && containsLeastTwoDigits(input)){
+        if(containsUppercase(input) && containsLeastTwoDigits(input) && containsLeastOneSpecialCharacter(input)){
              return true;
          }
 
@@ -24,6 +24,15 @@ let PasswordValidator = function() {
                 if(count >= 2)
                     return true;
             }
+        }
+        return false;
+    }
+
+    function containsLeastOneSpecialCharacter(input) {
+        let specialChar = ['$', '#', '%', '&', '-', '!', '?'];
+        for(let char of specialChar){
+            if(input.includes(char))
+                return true;
         }
         return false;
     }

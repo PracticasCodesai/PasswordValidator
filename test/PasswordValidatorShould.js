@@ -26,4 +26,8 @@ describe('PasswordValidator Should', function() {
         expect(passwordValidator.validate('1ab#cfgtyp')).to.be.false;
     });
 
+    it('the password not contains special characters $#%&-!?', function () {
+        expect(passwordValidator.validate('1234567aBj')).to.be.false;
+    });
+
 });
