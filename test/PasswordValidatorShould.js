@@ -22,4 +22,8 @@ describe('PasswordValidator Should', function() {
         expect(passwordValidator.validate('1234567ab#')).to.be.false;
     });
 
+    it('the password not contains at least 2 digit', function () {
+        expect(passwordValidator.validate('1ab#cfgtyp')).to.be.false;
+    });
+
 });

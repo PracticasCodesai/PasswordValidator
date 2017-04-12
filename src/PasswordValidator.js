@@ -2,7 +2,7 @@
 
 let PasswordValidator = function() {
     this.validate = function(input) {
-         if(containsUppercase(input)){
+         if(containsUppercase(input) && containsLeastTwoDigits(input)){
              return true;
          }
 
@@ -15,6 +15,19 @@ let PasswordValidator = function() {
         }
         return false;
     }
+
+    function containsLeastTwoDigits(input){
+        let count = 0;
+        for(let char of input){
+            if(!isNaN(char)){
+                count = count +1;
+                if(count >= 2)
+                    return true;
+            }
+        }
+        return false;
+    }
+
 };
 
 module.exports = PasswordValidator;
