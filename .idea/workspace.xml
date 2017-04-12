@@ -9,6 +9,7 @@
     <list default="true" id="317e141e-1c0c-4830-abe8-fa77eab88cb5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PasswordValidator.js" afterPath="$PROJECT_DIR$/src/PasswordValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/PasswordValidatorShould.js" afterPath="$PROJECT_DIR$/test/PasswordValidatorShould.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordValidator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PasswordValidator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PasswordValidator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordValidatorShould.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PasswordValidatorShould.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/PasswordValidatorShould.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="213">
+              <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -302,7 +303,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491985111701</updated>
-      <workItem from="1491985113089" duration="14061000" />
+      <workItem from="1491985113089" duration="14562000" />
     </task>
     <task id="LOCAL-00001" summary="the password not contains 1 letter uppercase">
       <created>1491990814420</created>
@@ -325,43 +326,50 @@
       <option name="project" value="LOCAL" />
       <updated>1491993699226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor function validate">
+      <created>1491999193909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491999193909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 08m 06s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 19m 27s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 08m 12s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 19m 32s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 10m 36s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 19m 51s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 10m 45s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 19m 57s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 10m 53s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 19m 59s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 10m 56s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 20m 14s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 11m 42s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 20m 17s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 12m 31s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 20m 18s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 12m 35s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 20m 23s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 12m 40s.xml">
+    <history-entry file="PasswordValidator_Should - 2017.04.12 at 13h 20m 27s.xml">
       <configuration name="PasswordValidator Should" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14061000" />
+    <option name="totallyTimeSpent" value="14562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +432,8 @@
     <MESSAGE value="the password not contains 1 letter uppercase" />
     <MESSAGE value="the password not contains at least 2 digit" />
     <MESSAGE value="the password not contains special characters $#%&amp;-!?" />
-    <option name="LAST_COMMIT_MESSAGE" value="the password not contains special characters $#%&amp;-!?" />
+    <MESSAGE value="refactor function validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor function validate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -450,18 +459,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/PasswordValidatorShould.js">
+    <entry file="file://$PROJECT_DIR$/src/PasswordValidator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="216">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PasswordValidator.js">
+    <entry file="file://$PROJECT_DIR$/test/PasswordValidatorShould.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="213">
+          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="55" />
           <folding />
         </state>
       </provider>

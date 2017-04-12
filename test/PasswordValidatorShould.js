@@ -30,4 +30,8 @@ describe('PasswordValidator Should', function() {
         expect(passwordValidator.validate('1234567aBj')).to.be.false;
     });
 
+    it('the password not contains 10 characters or more', function () {
+        expect(passwordValidator.validate('1234Aa$')).to.be.false;
+    });
+
 });

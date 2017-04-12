@@ -1,9 +1,9 @@
 'use strict';
 
 let PasswordValidator = function() {
-    this.validate = function(input) {
+    this.validate = (input) => {
         let validateFunctions = [containsUppercase, containsLeastTwoDigits,
-            containsLeastOneSpecialCharacter];
+            containsLeastOneSpecialCharacter, contains10CharactersOrMore];
 
         let result;
         for(let func of validateFunctions){
@@ -36,11 +36,15 @@ let PasswordValidator = function() {
 
     function containsLeastOneSpecialCharacter(input) {
         let specialChar = ['$', '#', '%', '&', '-', '!', '?'];
-        for(let char of specialChar){
-            if(input.includes(char))
+        for (let char of specialChar) {
+            if (input.includes(char))
                 return true;
         }
         return false;
+    }
+
+    function contains10CharactersOrMore(input){
+        return (input.length >= 10);
     }
 
 };
